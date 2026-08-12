@@ -1,0 +1,46 @@
+# LiDAR datasets — too large for GitHub (2–5 GB each)
+Dataset/
+*.las
+*.laz
+*.LAZ
+*.LAS
+
+# Python outputs
+__pycache__/
+*.py[cod]
+
+# Per-village notebooks (50–60 MB each — too large)
+# Only SVAMITVA-Main.ipynb is pushed (79KB)
+CHAKHIRASINGH.ipynb
+DEVDI.ipynb
+DHUNDA_FATEHGARH.ipynb
+Dhal_Hoshiarpur.ipynb
+Gandhinagar_Diglipur.ipynb
+Ganganagar.ipynb
+KHAPRETA.ipynb
+Kadamtala_Rangat_A_and_N.ipynb
+PIRAYANKUPPAM.ipynb
+THANDALAM.ipynb
+
+# Virtual environments
+venv/
+.venv/
+drainage_env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Large outputs (kept on Google Drive, not Git)
+Outputs/
+*.tif
+*.gpkg
