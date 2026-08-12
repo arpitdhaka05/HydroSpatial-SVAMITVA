@@ -45,7 +45,7 @@ This pipeline was built and validated across two national-level GeoAI hackathons
 
 | Competition | Organiser | Dataset | Team |
 |-------------|-----------|---------|------|
-| **AI/ML Hackathon — Ministry of Panchayati Raj** | IIT Tirupati Navavishkar I-Hub | 10 SVAMITVA villages | UniMinds |
+| **AI/ML Hackathon — Ministry of Panchayati Raj** | IIT Tirupati Navavishkar I-Hub | 10 SVAMITVA villages | Protego |
 | **National GeoAI Hackathon** | IIT Bombay | UP villages (Uttar Pradesh flood zones) | Protego |
 
 Both competitions used the **same problem statement:** *"DTM Creation using AI/ML from point cloud data and development of drainage network."*
