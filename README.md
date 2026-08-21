@@ -23,23 +23,23 @@
 
 ---
 
-## ⚡ TL;DR — What This Does
+##  TL;DR — What This Does
 
 Converts raw **drone LiDAR point cloud data (LAS/LAZ)** from India's SVAMITVA Mission into a **complete drainage engineering blueprint** — automatically, with zero manual GIS work.
 
 | Metric | Value |
 |--------|-------|
-| 🏘️ Villages Processed | 10 villages (2 datasets, 2 hackathons) |
-| 📊 Max Points Processed | **157,925,322** per village |
-| 💾 Dataset Size Handled | Up to **4.7 GB per village** |
-| 🧠 Hardware Required | CPU-only (16GB RAM) |
-| ⏱️ Time per Village | ~15 minutes end-to-end |
-| 📐 DTM Accuracy | **0.60m RMSE** (validated) |
-| 📦 Output Formats | GeoPackage + COG GeoTIFF + Interactive HTML Map |
+|  Villages Processed | 10 villages (2 datasets, 2 hackathons) |
+|  Max Points Processed | **157,925,322** per village |
+|  Dataset Size Handled | Up to **4.7 GB per village** |
+|  Hardware Required | CPU-only (16GB RAM) |
+|  Time per Village | ~15 minutes end-to-end |
+|  DTM Accuracy | **0.60m RMSE** (validated) |
+|  Output Formats | GeoPackage + COG GeoTIFF + Interactive HTML Map |
 
 ---
 
-## 🏆 Hackathon Context
+##  Hackathon Context
 
 This pipeline was built and validated across two national-level GeoAI hackathons:
 
@@ -54,7 +54,7 @@ The HydroSpatial pipeline is the **consolidated, updated version** of both submi
 
 ---
 
-## 🗺️ Live Interactive Maps
+##  Live Interactive Maps
 
 Click to explore the generated drainage networks in your browser — no download required:
 
@@ -77,7 +77,7 @@ Each map: satellite base layer · layer toggles (primary/secondary drains, pump 
 
 ---
 
-## 🧠 7-Phase Pipeline
+##  7-Phase Pipeline
 
 ```
 LAS/LAZ Input (raw drone point cloud)
@@ -120,7 +120,7 @@ Phase 7 ── GIS + Financial Outputs
 
 ---
 
-## 💡 Key Technical Decisions
+##  Key Technical Decisions
 
 | Decision | Rationale |
 |----------|-----------|
@@ -133,7 +133,7 @@ Phase 7 ── GIS + Financial Outputs
 
 ---
 
-## 📊 Drain Classification
+##  Drain Classification
 
 | Catchment Area | Classification | Cross-Section | Notes |
 |---------------|----------------|---------------|-------|
@@ -145,7 +145,7 @@ Sizing is **fully automated** from Flow Accumulation values — no manual input 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # 1. Clone the repo
@@ -173,7 +173,7 @@ BASE_DATASET_DIR = "path/to/Dataset"   # Point to your LAS/LAZ files
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 HydroSpatial-SVAMITVA/
@@ -182,7 +182,7 @@ HydroSpatial-SVAMITVA/
 ├── requirements.txt               # All Python dependencies
 ├── .gitignore                     # Excludes LiDAR datasets, large outputs
 │
-├── 📂 Web Folium/                 # Interactive HTML drainage maps (8 villages)
+├──  Web Folium/                 # Interactive HTML drainage maps (8 villages)
 │   ├── DEVDI_Interactive_DrainageMap.html
 │   ├── CHAKHIRASINGH_Interactive_DrainageMap.html
 │   └── ... (8 village maps total)
@@ -199,7 +199,7 @@ HydroSpatial-SVAMITVA/
 
 ---
 
-## 🔗 Related Projects — The Quant Ecosystem
+##  Related Projects — The Quant Ecosystem
 
 - **[Monte Carlo Finance Simulator](https://github.com/arpitdhaka05/monte-carlo-finance-simulator)** — Physics-based simulation; same graph-theory thinking applied to portfolio paths
 - **[Market Sentiment Alpha Analysis](https://github.com/arpitdhaka05/market-sentiment-alpha-analysis)** — Walk-forward temporal modeling; the statistical rigor mirrors the hydraulic validation methodology
@@ -207,7 +207,7 @@ HydroSpatial-SVAMITVA/
 
 ---
 
-## 👥 Team
+##  Team
 
 **Team Protego / Team UniMinds**
 - **Arpit Dhaka** (Team Lead) — NIT Goa
@@ -215,17 +215,17 @@ HydroSpatial-SVAMITVA/
 
 ---
 
-## 📄 Full Outputs
+##  Full Outputs
 
 - [Google Drive — All Village Outputs](https://drive.google.com/drive/folders/1hzBtKKEX0zkB78jPXO35kQO-s2v2ZBMO?usp=sharing)
 
 ---
 
-## 📜 License
+##  License
 
 Research and government infrastructure development use.
 MIT License — feel free to adapt for your SVAMITVA village.
 
 ---
 
-💡 *From 157 million raw points to a construction-ready blueprint — no manual GIS, no domain expert required.*
+ *From 157 million raw points to a construction-ready blueprint — no manual GIS, no domain expert required.*
