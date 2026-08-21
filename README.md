@@ -4,7 +4,7 @@
 
 <br/>
 
-# 🛰️ HydroSpatial-SVAMITVA
+#  HydroSpatial-SVAMITVA
 ### *Automated Gravity-Fed Drainage Network Design from LiDAR Point Clouds*
 
 <br/>
